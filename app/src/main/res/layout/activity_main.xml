@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/balanceTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="Inter"
+        android:textStyle="bold"
+        android:textColor="#2F3036"
+        android:text="Account Balance"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/balanceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="Inter"
+        android:textStyle="bold"
+        android:textColor="#2F3036"
+        android:text="Response will be displayed here"
+        android:textSize="40sp" />
+
+</LinearLayout>
