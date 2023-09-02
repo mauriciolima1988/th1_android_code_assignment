@@ -1,4 +1,4 @@
-package com.example.formulamoney
+package com.theoremone.formulamoney
 
 import org.junit.Test
 
