@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.formulamoney"
+    namespace = "com.theoremone.formulamoney"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.formulamoney"
+        applicationId = "com.theoremone.formulamoney"
         minSdk = 28
         targetSdk = 33
         versionCode = 1
@@ -47,6 +47,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
     implementation("com.android.volley:volley:1.2.1")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
@@ -58,6 +59,8 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.recyclerview:recyclerview:1.3.1")
+    implementation("androidx.cardview:cardview:1.0.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -68,4 +71,5 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    implementation("com.android.billingclient:billing:6.0.1")
 }
