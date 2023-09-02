@@ -1,4 +1,4 @@
-package com.example.formulamoney.ui.theme
+package com.theoremone.formulamoney.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

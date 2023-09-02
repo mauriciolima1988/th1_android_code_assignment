@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <!-- permissions for INTERNET -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
@@ -15,7 +16,7 @@
         android:theme="@style/Theme.FormulaMoney"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
+            android:name="com.theoremone.formulamoney.ui.activity.SplashActivity"
             android:theme="@style/TextSplashTheme"
             android:exported="true">
             <intent-filter>
@@ -24,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.theoremone.formulamoney.ui.activity.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.FormulaMoney">

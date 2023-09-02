@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Formula Money</string>
+    <string name="premium_offer_title">Go Pro!</string>
+    <string name="premium_offer_description">Get insights on how to save money using premium advice</string>
+    <string name="premium_turned_on">Premium Activated!</string>
+    <string name="premium_turned_off">Premium subscription off</string>
 </resources>
