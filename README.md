@@ -15,6 +15,7 @@ Use provided [API service](https://8kq890lk50.execute-api.us-east-1.amazonaws.co
 
 Estimated coding time: 8 hours
 
+---
 
 ## Formula Money App
 
@@ -38,7 +39,7 @@ https://github.com/mauriciolima1988/th1_android_code_assignment/assets/106693466
 #### Network requests & Caching
 - Following [Swagger requests](https://8kq890lk50.execute-api.us-east-1.amazonaws.com/prd/api) provided, we added data class models and updated the ApiService interface to add two more methods: `getTransactions` and `getAdvice`.
 - For caching responses we choosed to save the json response file in the app cache directory, and later loading that same response if network fails.
-- Only if the network fails for the first the app is open, the it will load the pre-compiled .json files as responses. If it fails after the first response successfull, then it loads the cached response.
+- Only if the network fails for the first the app is open, then it will load the pre-compiled .json files as responses. If it fails after the first response successfull, then it loads the cached response.
 - We are registering a broadcast listener to listen when the connection is back again, and if any request has failed, it will then request again.
 - In order to make the API request to work, we needed to add a `ModifiedOkHttpClient` to accept non trusted certificates.
 
@@ -52,3 +53,20 @@ https://github.com/mauriciolima1988/th1_android_code_assignment/assets/106693466
 #### Bottlenecks
 - We could add support for Dark Mode.
 - We should add unit and automation tests.
+
+#### Libraries used on this project
+* ViewModel
+* Billing Client
+* Flow
+* Coroutines
+* Lifecycle
+* Retrofit
+* Gson
+* OkHttp
+
+---
+##### Mauricio Lima
+---
+### License
+
+MIT
